@@ -1,0 +1,28 @@
+body{
+    background-color:lightgrey;
+}
+
+.container{
+    padding-top: 42vh;
+}
+
+h1.resultado{
+    text-align: center;
+    padding-top:42vh;
+    font-size: 3em;
+}
+form{
+    padding-bottom: 3vh;
+}
+@media (max-width: 575.98px) { 
+    h1{
+        font-size: 1.4em;
+    }
+    h1.resultado{
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1{
+        font-size: 1.2em;
+}
